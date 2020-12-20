@@ -1,0 +1,105 @@
+body{
+    font-family: 'Sniglet', cursive;
+    font-weight: light;
+}
+.navigation{
+    margin-top: 50px;
+}
+.navigation h2{
+    font-weight: 100;
+    cursor: pointer;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+.navigate{
+    background-color: #F1F3F4;
+    padding: 10px;
+}
+.navigate .icons i{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 40px;
+    color: #fc6c85;
+
+}
+.productImage{
+    max-height: 200px;
+}
+.card-footer{
+    color:#fc6c85;
+    font-size: 20px;
+    cursor: pointer;
+}
+.foot{
+    background-color: #fc6c85;
+    color:snow;
+    text-align: center;
+    padding:40px 20px;
+}
+.foot i{
+    font-size: 40px;
+    padding: 10px;
+}
+.footer{
+    background-color: #F1F3F4;
+    height: 200px;
+}
+@media only screen and (max-width: 600px){
+    .foot h1{
+        font-size: 25px;
+    }
+    .foot i{
+        font-size: 30px;
+    }
+}
+
+/* HOME PAGE */
+.carousel-item img{
+    width: 100%;
+    height: 85vh;
+}
+
+
+.carousel{
+    height: 86vh;
+} 
+.carousel-caption{
+    height: 50vh;
+    text-align: center;
+}
+
+.carousel-caption h5{
+    color:#F1F3F4 ;
+    margin-bottom: 50px;
+    /* border-bottom: 0.2px solid #fc6c85; */
+
+}
+
+.carousel-caption p{
+    margin-bottom: 50px;
+
+}
+.carousel-caption a{
+    text-decoration: none;
+    color:white;
+    border:0.5px solid #fc6c85;
+    background-color: #fc6c85;
+    padding: 15px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    /* .carousel-item img{
+        width: 100%;
+        height: 50vh;
+    }
+    .carousel{
+        height: 30vh;
+    } 
+    .carousel-caption{
+        
+
+    } */
+    
+  }
